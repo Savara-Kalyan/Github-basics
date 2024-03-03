@@ -1,3 +1,27 @@
+Adding remote repo :
+
+git remote add origin https://github.com/Savara-Kalyan/Github-basics.git
+
+Creating branch :
+
+git branch -M main
 
 
-Hi my name is kalyan. Currently i'm pursuing my masters from IIT Patna
+Saving changes to git :
+
+git commit -m "Message"
+
+Pushing to main :
+
+git push -u origin main
+
+
+To check the status :
+
+git status
+
+To track the file :
+
+git add "file name"
+
+
