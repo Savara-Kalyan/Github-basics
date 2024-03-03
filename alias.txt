@@ -1,1 +1,7 @@
+To create a alias for command :
 
+git log --all --graph --decorate --oneline
+
+Use :
+
+git config --global alias.history "log --all --graph --decorate --oneline"

@@ -1,0 +1,36 @@
+
+
+To go back to any of the  previous commit :
+
+git checkout "commit ID" 
+
+Commit ID can be find by using following command :
+
+git log
+
+
+Also Another way is to delete the recent commits
+
+To do so :
+
+git reset --hard "Commit ID you want to go"
+
+
+********************************************
+
+
+After pushing to main repo , if we want to get back to previous commit both logal and remote
+
+Use this :
+
+git revert "current commit ID" "commit ID we want to go back"
+
+press ENTER
+
+A new text file will open, just quit
+
+NOTE: if you go back N commits , N text files will get open
+
+Just use :
+
+git push

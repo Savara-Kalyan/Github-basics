@@ -1,0 +1,10 @@
+
+
+To create branch in previous commit , First checkout to the commit, Then use :
+
+git checkout -b old-commit
+
+To check the branches :
+
+git branch
+
